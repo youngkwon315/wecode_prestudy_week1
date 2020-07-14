@@ -1,0 +1,119 @@
+* {
+  font-family: 'Open Sans', sans-serif;
+}
+a {
+  color:inherit;
+  text-decoration: none;
+ }
+
+/*-----header------*/
+header {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+
+  height: 50px;
+  padding: 1rem;
+  color: white;
+  background: transparent;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header h1 {
+  padding-left: 20px;
+  font-size: 20px;
+}
+#nav-menu span {
+  padding-right: 20px;
+}
+
+/*-----body------*/
+body {
+  margin: 0;
+  padding: 0;
+  background: url('https://wallpapercave.com/wp/wp4511654.jpg');
+  background-size: cover;
+}
+
+.box {
+  width: 900px;
+  background: rgba(43, 42, 42, 0.6);
+  padding: 40px;
+  text-align: center;
+  margin: auto;
+  margin-top: 5%;
+  color: white;
+}
+.box-img {
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  margin: 20px;
+}
+.box h1 {
+  font-size: 30px;
+  font-weight: 100;
+}
+.box h5 {
+  margin-top: 0;
+  font-size: 20px;
+  font-weight: 100;
+}
+.box p {
+  text-align: left;
+}
+
+/*intro box*/
+.hashtag {
+  text-align: left;
+}
+
+.hashtag button {
+  background-color: #3e68ff;
+  color: white;
+  border-radius: 8px;
+  border: 0;
+}
+
+.hashtag button:hover {
+  background-color: blue;
+}
+
+/*rolemodel box*/
+.rolemodels {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.rolemodels img:hover {
+  transform: scale(1.1);
+}
+
+/*read box*/
+.read {
+  margin-top: 0;
+  padding-top: 1px;
+}
+
+.book-img {
+  width: 200px;
+  height: 200px;
+  margin: 10px;
+}
+
+.book-img:hover{
+  transform: scale(1.1);
+}
+
+/*contact box*/
+
+.contact {
+  margin-top: 0;
+  padding: auto;
+}
+
+.contact i {
+  margin: 20px;
+}
