@@ -111,6 +111,18 @@ body {
   transform: scale(1.1);
 }
 
+/*todo box*/
+
+.todo {
+  margin-top: 0;
+  padding: auto;
+}
+
+.todo ul {
+  list-style: none;
+  padding: 0;
+}
+
 /*contact box*/
 
 .contact {
